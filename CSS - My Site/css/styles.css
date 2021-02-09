@@ -12,7 +12,6 @@ h1 {
   font-family: 'Sacramento', sans-serif;
   font-size: 5.625rem;
   color: #66BFBF;
-  line-height: 2;
   /* 16px = 100% = 1em */
 }
 
@@ -21,7 +20,6 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
-  line-height: 2;
 }
 
 h3 {
