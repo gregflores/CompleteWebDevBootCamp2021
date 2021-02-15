@@ -5,6 +5,10 @@ body {
     color: #40514e;
 }
 
+p {
+    line-height: 2;
+}
+
 h1 {
     /* margin-top: 50px; */
     /* width: 10%;
@@ -63,7 +67,7 @@ hr {
     border-color: #bbfafa;
     /* background-color: black; */
     /* height: 200px; */
-    width: 75px;
+    width: 6%;
     margin: 100px auto 100px auto;
 }
 
@@ -150,7 +154,7 @@ hr {
 
 .Contact_me_btn:hover {
     background: #5D7E7E;
-    border: solid #337FED 1px;
+    /* border: solid #337FED 1px; */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -161,15 +165,19 @@ hr {
     background-color: #66bfbf;
     margin: 0;
     text-align: unset;
-    height: 200px;
+    padding: 40px 0 20px;
 }
 
 .footer-link {
-    margin: 60px 20px 20px 20px;
+    margin: 10px 20px;
     display: inline-block;
     text-decoration: none;
 }
 
+.footer-link:hover {
+    color: #eaf6f6
+}
+
 .copyright {
-    color: white;
+    color: #eaf6f6;
 }
