@@ -69,7 +69,7 @@ i:hover {
 
 .about-me-title {
     padding-top: 40px;
-    color: black;
+    color: #27444b;
     text-align: center;
 }
 
@@ -80,11 +80,12 @@ i:hover {
 #experience {
     text-align: left;
     margin: 0 auto 0 auto;
+    background-color: #bbdfc8;
 }
 
 .experience-title {
     padding-top: 40px;
-    color: black;
+    color: #27444b;
     text-align: center;
 }
 
@@ -97,18 +98,26 @@ i:hover {
     font-family: 'Merriweather', serif;
 }
 
+.project-name {
+    font-family: 'Merriweather', serif;
+}
+
 .job-details {
+    font-size: 0.90rem;
+}
+
+.project-details {
     font-size: 0.90rem;
 }
 
 #skills {
     text-align: left;
     margin: 0 auto 0 auto;
-    background-color: #bbdfc8;
+    background-color: #f4f9f4;
 }
 
 .skills-title {
-    color: black;
+    color: #27444b;
     padding-top: 40px;
     text-align: center;
 }
@@ -128,6 +137,7 @@ body {
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 2;
+    color: #27444b;
 }
 
 p {
@@ -156,12 +166,13 @@ h3 {
 }
 
 #contact-me {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
+    background-color: #bbdfc8;
 }
 
 .contact-me-title {
-    color: black;
-    margin-top: 80px;
+    color: #27444b;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -183,7 +194,7 @@ h3 {
 }
 
 .Contact_me_btn:hover {
-    background: #5D7E7E;
+    background: #27444b;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -191,23 +202,33 @@ h3 {
 }
 
 #footer {
-    background-color: #f0e5d8;
+    background-color: #f4f9f4;
     padding: 30px;
 }
 
 .footer-link {
-    color: white;
+    color: #27444b;
     margin: 10px 20px;
     display: inline-block;
     text-decoration: none;
 }
 
+.project-link {
+    color: #27444b;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.project-link:hover {
+    color: #bbdfc8;
+}
+
 .footer-link:hover {
-    color: #ffc478
+    color: #bbdfc8;
 }
 
 .copyright {
-    color: #ffc478;
+    color: #27444b;
 }
 
 
@@ -259,7 +280,8 @@ h3 {
         font-size: 2em;
     }
     .professional-title {
-        margin: 20px 40px;
+        margin-top: 20px;
+        padding-bottom: 30px;
         font-size: 1.5em;
     }
     .dotted-line {
@@ -268,4 +290,16 @@ h3 {
         border-color: #00a1a1;
         width: 30vw;
     }
+}
+
+.projects-title {
+    color: #27444b;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#projects {
+    text-align: left;
+    margin: 0 auto 0 auto;
+    background-color: #f4f9f4;
 }
