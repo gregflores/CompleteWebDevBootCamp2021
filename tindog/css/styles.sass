@@ -1,13 +1,10 @@
-$primary_color: blue
-$font_stack: consolas
 $heading_font: 'Montserrat', 'sans-serif'
 $body_font: 'Montserrat', 'sans-serif'
 
 #title
     background-color: #ff4c68
     color: white
-    overflow: hidden
-    height: 700px
+    // height: 700px
 
 body
     font-family: $body_font
@@ -20,6 +17,7 @@ h1
 
 .container-fluid
     padding: 3% 15%
+    padding-bottom: 7%
 
 .menu-item
     margin: 0 18px
@@ -40,9 +38,13 @@ h1
 .button-download
     margin: 5% 3% 5% 0%
 
+.title-image
+    position: relative
 .title-img
-    width: 60%
+    width: 300px
     transform: rotate(25deg)
+    position: absolute
+    right: 30%
 
 .feature-icon
     color: #ef8172
@@ -56,18 +58,19 @@ h3
     font-size: 1.5rem
 
 #features
-    text-align: center
     padding: 7% 15%
+    background-color: white
+    position: relative
 
 .feature-block
-    padding: 3%
+    text-align: center
+    padding: 4.5%
 
 .feature-block
     p
         color: #8f8f8f
 
 #testimonials
-    padding: 7% 15%
     text-align: center
     background-color: #ef8172
     color: white
@@ -91,3 +94,23 @@ h2
 .press-logo
     margin: 20px 20px 50px
     width: 15%
+
+.carousel-item
+    padding: 7% 15%
+
+#pricing
+    padding: 100px
+
+.pricing-column
+    padding: 3% 2%
+
+@media (max-width: 1200px)
+    .title-image
+        position: static
+    .title-img
+        position: static
+        transform: rotate(0)
+    #features
+        position: static
+    #title
+        text-align: center
