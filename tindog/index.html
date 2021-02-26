@@ -44,13 +44,13 @@
 					>
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item menu-item">
-								<a class="nav-link" href="">Contact</a>
+								<a class="nav-link" href="#footer">Contact</a>
 							</li>
 							<li class="nav-item menu-item">
-								<a class="nav-link" href="">Pricing</a>
+								<a class="nav-link" href="#pricing">Pricing</a>
 							</li>
 							<li class="nav-item menu-item">
-								<a class="nav-link" href="">Download</a>
+								<a class="nav-link" href="#cta">Download</a>
 							</li>
 						</ul>
 					</div>
@@ -59,7 +59,9 @@
 
 				<div class="row title-view">
 					<div class="col-lg-6">
-						<h1>Meet new and interesting dogs nearby.</h1>
+						<h1 class="big-heading">
+							Meet new and interesting dogs nearby.
+						</h1>
 						<button
 							type="button"
 							class="btn btn-dark btn-lg button-download"
@@ -119,7 +121,7 @@
 				data-bs-ride="carousel"
 			>
 				<div class="carousel-inner">
-					<div class="carousel-item active">
+					<div class="carousel-item active container-fluid">
 						<h2 class="testimonial-text">
 							I no longer have to sniff other dogs for love. I've
 							found the hottest Corgi on TinDog. Woof.
@@ -131,7 +133,7 @@
 						/>
 						<em>Pebbles, New York</em>
 					</div>
-					<div class="carousel-item">
+					<div class="carousel-item container-fluid">
 						<h2 class="testimonial-text">
 							My dog used to be so lonely, but with TinDog's help,
 							they've found the love of their life. I think.
@@ -195,7 +197,7 @@
 		<!-- Pricing -->
 
 		<section id="pricing">
-			<h2>A Plan for Every Dog's Needs</h2>
+			<h2 class="section-heading">A Plan for Every Dog's Needs</h2>
 			<p>Simple and affordable price plans for your and your dog.</p>
 			<div class="row row-cols-1 mb-3 text-center">
 				<div class="pricing-column col-lg-4 col-md-6">
@@ -204,7 +206,7 @@
 							<h3>Chihuahua</h3>
 						</div>
 						<div class="card-body">
-							<h2>Free</h2>
+							<h2 class="price-text">Free</h2>
 							<p>5 Matches Per Day</p>
 							<p>10 Messages Per Day</p>
 							<p>Unlimited App Usage</p>
@@ -224,7 +226,7 @@
 							<h3>Labrador</h3>
 						</div>
 						<div class="card-body">
-							<h2>$49 / mo</h2>
+							<h2 class="price-text">$49 / mo</h2>
 							<p>Unlimited Matches</p>
 							<p>Unlimited Messages</p>
 							<p>Unlimited App Usage</p>
@@ -244,7 +246,7 @@
 							<h3>Mastiff</h3>
 						</div>
 						<div class="card-body">
-							<h2>$99 / mo</h2>
+							<h2 class="price-text">$99 / mo</h2>
 							<p>Pirority Listing</p>
 							<p>Unlimited Matches</p>
 							<p>Unlimited Messages</p>
@@ -264,34 +266,41 @@
 		<!-- Call to Action -->
 
 		<section id="cta">
-			<h3 class="cta-title">
-				Find the True Love of Your Dog's Life Today.
-			</h3>
-			<button type="button" class="btn btn-dark btn-lg button-download">
-				<i class="fab fa-apple"></i> Download
-			</button>
-			<button
-				type="button"
-				class="btn btn-outline-light btn-lg button-download"
-			>
-				<i class="fab fa-google-play"></i> Download
-			</button>
+			<div class="container-fluid">
+				<h3 class="cta-title">
+					Find the True Love of Your Dog's Life Today.
+				</h3>
+				<button
+					type="button"
+					class="btn btn-dark btn-lg button-download"
+				>
+					<i class="fab fa-apple"></i> Download
+				</button>
+				<button
+					type="button"
+					class="btn btn-outline-light btn-lg button-download"
+				>
+					<i class="fab fa-google-play"></i> Download
+				</button>
+			</div>
 		</section>
 
 		<!-- Footer -->
 
 		<footer id="footer">
-			<i class="footer-icon fab fa-facebook-f"></i>
-			<i class="footer-icon fab fa-twitter"></i>
-			<i class="footer-icon fab fa-instagram"></i>
-			<i class="footer-icon fas fa-envelope"></i>
-			<p>© Copyright 2018 TinDog</p>
+			<div class="container-fluid">
+				<i class="footer-icon fab fa-facebook-f"></i>
+				<i class="footer-icon fab fa-twitter"></i>
+				<i class="footer-icon fab fa-instagram"></i>
+				<i class="footer-icon fas fa-envelope"></i>
+				<p>© Copyright 2018 TinDog</p>
+			</div>
 		</footer>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js "
 			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 "
-			crossorigin="anonymous "
+			crossorigin="anonymous"
 		></script>
 	</body>
 </html>

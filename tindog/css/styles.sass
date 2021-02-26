@@ -1,23 +1,37 @@
 $heading_font: 'Montserrat', 'sans-serif'
 $body_font: 'Montserrat', 'sans-serif'
 
-#title
-    background-color: #ff4c68
-    color: white
-    // height: 700px
-
+// HTML Elements
 body
     font-family: $body_font
+    text-align: center
 
-h1
+h1, h2, h3, h4, h5, h6
+    font-family: $heading_font
+    font-weight: bold
+
+h3
+    font-size: 1.5rem
+
+p
+    color: #8f8f8f
+
+// Heading
+.big-heading
     font-family: $heading_font
     font-size: 3.5rem
     line-height: 1.5
     font-weight: 900
 
+.section-heading
+    font-size: 3rem
+    line-height: 1.5
+
 .container-fluid
     padding: 3% 15%
-    padding-bottom: 7%
+    // padding-bottom: 7%
+
+// Navbar
 
 .menu-item
     margin: 0 18px
@@ -35,17 +49,31 @@ h1
 .navbar
     padding-bottom: 4.5rem
 
+
+// Title Section
+#title
+    background-color: #ff4c68
+    color: white
+    text-align: left
+
+#title .container-fluid
+    padding: 3% 15% 7%
+
 .button-download
     margin: 5% 3% 5% 0%
 
 .title-image
     position: relative
+
 .title-img
     width: 300px
     transform: rotate(25deg)
     position: absolute
     right: 30%
 
+
+
+// Feature Section
 .feature-icon
     color: #ef8172
     padding-bottom: 1rem
@@ -53,41 +81,30 @@ h1
 .feature-icon:hover
     color: #ff4c68
 
-h3
-    font-weight: bold
-    font-size: 1.5rem
-
 #features
-    padding: 7% 15%
+    // padding: 7% 15%
     background-color: white
     position: relative
 
 .feature-block
-    text-align: center
     padding: 4.5%
 
-.feature-block
-    p
-        color: #8f8f8f
-
+// Testimonials section
 #testimonials
-    text-align: center
     background-color: #ff4c68
     color: white
     height: 500px
-
-h2
-    font-weight: bold
-    font-size: 3rem
-    line-height: 1.5
 
 .testimonials-img
     border-radius: 50%
     width: 10%
     margin: 20px
 
+.testimonial-text
+    font-size: 3rem
+    line-height: 1.5
+
 #press
-    text-align: center
     background-color: #ff4c68
     color: white
     padding-bottom: 3%
@@ -96,36 +113,43 @@ h2
     margin: 20px 20px 50px
     width: 15%
 
-.carousel-item
-    padding: 7% 15%
 
+// Pricing section
 #pricing
     padding: 100px
 
 .pricing-column
     padding: 3% 2%
 
+.price-text
+    font-size: 3rem
+    line-height: 1.5
+
+
+// Media query max width 1200px
 @media (max-width: 1200px)
+    // Title section
     .title-image
         position: static
     .title-img
         position: static
         transform: rotate(0)
-    #features
-        position: static
     #title
         text-align: center
+    // Features section
+    #features
+        position: static
 
+// Call to Action Section
 #cta
-    text-align: center
     background-color: #ff4c68
     color: white
-    padding: 7% 15%
 
 .cta-title
     font-family: $heading_font
     font-weight: 900
     font-size: 3rem
 
-#footer
-    text-align: center
+// Footer Section
+.footer-icon
+    margin: 20px 10px
