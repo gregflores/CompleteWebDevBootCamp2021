@@ -86,8 +86,9 @@ h3 {
 
 #testimonials {
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: white;
+  height: 500px;
 }
 
 h2 {
@@ -104,7 +105,7 @@ h2 {
 
 #press {
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: white;
   padding-bottom: 3%;
 }
@@ -141,5 +142,18 @@ h2 {
   #title {
     text-align: center;
   }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.cta-title {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 40px 80px;
 }
 /*# sourceMappingURL=styles.css.map */
