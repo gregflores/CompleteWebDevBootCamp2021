@@ -32,6 +32,15 @@ p {
   padding: 3% 15%;
 }
 
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
 .menu-item {
   margin: 0 18px;
 }
@@ -52,13 +61,8 @@ p {
   padding-bottom: 4.5rem;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
-
 #title .container-fluid {
+  text-align: left;
   padding: 3% 15% 7%;
 }
 
@@ -88,7 +92,6 @@ p {
 }
 
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -97,8 +100,7 @@ p {
 }
 
 #testimonials {
-  background-color: #ff4c68;
-  color: white;
+  background-color: #ef8172;
   height: 500px;
 }
 
@@ -114,8 +116,7 @@ p {
 }
 
 #press {
-  background-color: #ff4c68;
-  color: white;
+  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -152,11 +153,6 @@ p {
   #features {
     position: static;
   }
-}
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
 }
 
 .cta-title {
